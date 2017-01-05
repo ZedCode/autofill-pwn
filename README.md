@@ -19,3 +19,13 @@ Based on This: https://github.com/anttiviljami/browser-autofill-phishing it woul
 2017/01/05 12:41:31 Field organization = []
 2017/01/05 12:41:31 Serving GET Request...
 ```
+
+# Building
+Is easy!
+```
+$ go build .
+$ ./autofill-pwn
+ERROR: Missing Argument
+Usage:
+    ./autofill-pwn -p 8080 [-f index.html]
+```
